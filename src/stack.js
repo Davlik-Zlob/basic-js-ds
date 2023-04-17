@@ -31,7 +31,7 @@ class Stack {
 
   peek() {
     // throw new NotImplementedError('Not implemented');
-    return this.array[this.array.length - 1] || undefined;
+    return this.array[this.array.length - 1];
     // remove line with error and write your code here
   }
 }
